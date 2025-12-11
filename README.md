@@ -1,10 +1,10 @@
 # LiveScreenCapture
 
-A Windows Presentation Foundation (WPF) application for live screen and webcam capture with real-time rendering and frame rate control.
+A Windows Presentation Foundation (WPF) sample application for experimenting with the WPFCap package for live screen and webcam capture with real-time rendering and frame rate control.
 
 ## Overview
 
-LiveScreenCapture is a C# WPF application that demonstrates live video capture from webcam devices with precise frame rate control. The application can render frames both in visible and hidden windows, making it suitable for screen capture scenarios where the source window doesn't need to be visible.
+LiveScreenCapture is a C# WPF sample application created to experiment with using the WPFCap package for live video capture from webcam devices with precise frame rate control. The application can render frames both in visible and hidden windows, making it suitable for screen capture scenarios where the source window doesn't need to be visible.
 
 ## Features
 
@@ -118,6 +118,7 @@ Copyright © 2020
 
 ## Notes
 
-- The application uses `RenderTargetBitmap` for frame generation
+- This is a sample application designed to experiment with the WPFCap package
+- The application uses `RenderTargetBitmap` for frame generation, which is not very performant but is used here to pull frames for demonstration purposes
 - Timer-based frame generation ensures consistent frame rates
 - The hidden window rendering technique allows for screen capture without visible UI
